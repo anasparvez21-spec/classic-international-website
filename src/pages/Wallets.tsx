@@ -92,7 +92,7 @@ const Wallets: React.FC = () => {
                 {/* Price */}
                 <div className="flex items-center gap-2">
                   <span className="text-xl font-bold text-green-600">
-                    ${product.price.toFixed(2)}
+                    ${(product.price ? (product.price * 0.7).toFixed(2) : '')}
                   </span>
                   {product.originalPrice && (
                     <span className="text-sm text-gray-500 line-through">

@@ -82,7 +82,7 @@ const LuxuryLeatherCarpets: React.FC = () => {
             <div className="text-center text-lg font-semibold mt-2">{product.name}</div>
             <div className="text-center text-gray-600 text-sm mb-2">{product.shortDescription}</div>
             <div className="flex-1 flex flex-col justify-end">
-              <div className="text-center font-bold text-xl mb-2">${product.price.toLocaleString(undefined, {minimumFractionDigits: 2})}</div>
+              <div className="text-center font-bold text-xl mb-2">${product.price ? (product.price * 0.75 * 0.75).toLocaleString(undefined, {minimumFractionDigits: 2}) : ''}</div>
               <Button
                 onClick={(e) => handleAddToCart(product, e)}
                 className="w-11/12 mx-auto mb-4"
