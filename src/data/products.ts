@@ -862,61 +862,6 @@ export const bagProducts: Product[] = [
 export const coatProducts: Product[] = [
   // Added missing coat images as products
   {
-      { name: 'Size', value: 'Standard' }
-    ],
-    materials: ['Leather'],
-    careInstructions: ['Professional cleaning only'],
-    customizable: false,
-    featured: false,
-    tags: ['leather', 'coat', 'overcoat'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
-  {
-      { name: 'Size', value: 'Standard' }
-    ],
-    materials: ['Leather'],
-    careInstructions: ['Professional cleaning only'],
-    customizable: false,
-    featured: false,
-    tags: ['leather', 'coat', 'double breasted'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
-  {
-      { name: 'Size', value: 'Standard' }
-    ],
-    materials: ['Leather', 'Fur'],
-    careInstructions: ['Professional cleaning only'],
-    customizable: false,
-    featured: false,
-    tags: ['leather', 'coat', 'fur collar'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
-  {
-      { name: 'Size', value: 'Standard' }
-    ],
-    materials: ['Leather'],
-    careInstructions: ['Professional cleaning only'],
-    customizable: false,
-    featured: false,
-    tags: ['leather', 'coat', 'belted'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
-  {
-      { name: 'Size', value: 'Standard' }
-    ],
-    materials: ['Leather', 'Shearling'],
-    careInstructions: ['Professional cleaning only'],
-    customizable: false,
-    featured: false,
-    tags: ['leather', 'coat', 'shearling', 'aviator'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
-  {
     id: 'coat-008',
     name: 'Cowhide Patchwork Jacket',
     description: 'Cowhide patchwork leather jacket.',
@@ -941,7 +886,6 @@ export const coatProducts: Product[] = [
     createdAt: new Date(),
     updatedAt: new Date()
   },
-  {
       { name: 'Size', value: 'Standard' }
     ],
     materials: ['Leather'],
@@ -954,7 +898,6 @@ export const coatProducts: Product[] = [
   },
   // Add entries for coat3.jpg, coat4.jpg, coat5.jpg, coat6.jpg, coat7.jpg, coat8.jpg
   // ...repeat similar structure for each image...
-  {
       { name: 'Lining', value: 'Viscose' },
       { name: 'Length', value: 'Mid-thigh' },
       { name: 'Closure', value: 'Belt and Buttons' },
