@@ -886,37 +886,6 @@ export const coatProducts: Product[] = [
     createdAt: new Date(),
     updatedAt: new Date()
   },
-      { name: 'Size', value: 'Standard' }
-    ],
-    materials: ['Leather'],
-    careInstructions: ['Professional cleaning only'],
-    customizable: false,
-    featured: false,
-    tags: ['leather', 'coat', 'modern'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
-  // Add entries for coat3.jpg, coat4.jpg, coat5.jpg, coat6.jpg, coat7.jpg, coat8.jpg
-  // ...repeat similar structure for each image...
-      { name: 'Lining', value: 'Viscose' },
-      { name: 'Length', value: 'Mid-thigh' },
-      { name: 'Closure', value: 'Belt and Buttons' },
-      { name: 'Season', value: 'Fall/Spring' }
-    ],
-    variants: [
-      { id: 'coat-001-s', name: 'Small', sku: 'CIC-001-S', price: 899.99, inStock: true, stockQuantity: 2, attributes: [{ name: 'Size', value: 'S' }] },
-      { id: 'coat-001-m', name: 'Medium', sku: 'CIC-001-M', price: 899.99, inStock: true, stockQuantity: 3, attributes: [{ name: 'Size', value: 'M' }] },
-      { id: 'coat-001-l', name: 'Large', sku: 'CIC-001-L', price: 899.99, inStock: true, stockQuantity: 2, attributes: [{ name: 'Size', value: 'L' }] },
-      { id: 'coat-001-xl', name: 'Extra Large', sku: 'CIC-001-XL', price: 899.99, inStock: true, stockQuantity: 1, attributes: [{ name: 'Size', value: 'XL' }] }
-    ],
-    materials: ['Lambskin Leather', 'Viscose Lining', 'Metal Buttons'],
-    careInstructions: ['Professional cleaning only', 'Store on padded hanger', 'Avoid moisture'],
-    customizable: false,
-    featured: true,
-    tags: ['leather', 'coat', 'trench', 'outerwear', 'classic'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
   {
     id: 'coat-009',
     name: 'Brown Leather Jacket',
