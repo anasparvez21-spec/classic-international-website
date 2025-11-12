@@ -1071,7 +1071,6 @@ export const coatProducts: Product[] = [
     tags: ['leather', 'coat', 'trench', 'outerwear', 'classic'],
     createdAt: new Date(),
     updatedAt: new Date()
-  }
   },
   {
     id: 'coat-009',
