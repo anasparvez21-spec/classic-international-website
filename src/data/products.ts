@@ -886,21 +886,6 @@ export const coatProducts: Product[] = [
     createdAt: new Date(),
     updatedAt: new Date()
   },
-  {
-    id: 'coat-004',
-    name: 'Double Breasted Coat',
-    description: 'Double breasted leather coat.',
-    shortDescription: 'Double breasted leather coat',
-    category: 'coats',
-    price: 1199.99,
-    currency: 'USD',
-    images: ['/coats/coat4.jpg'],
-    featuredImage: '/coats/coat4.jpg',
-    inStock: true,
-    stockQuantity: 5,
-    sku: 'CIC-004',
-    specifications: [
-      { name: 'Material', value: 'Leather' },
       { name: 'Size', value: 'Standard' }
     ],
     materials: ['Leather'],
@@ -911,21 +896,6 @@ export const coatProducts: Product[] = [
     createdAt: new Date(),
     updatedAt: new Date()
   },
-  {
-    id: 'coat-005',
-    name: 'Fur Collar Coat',
-    description: 'Leather coat with fur collar.',
-    shortDescription: 'Leather coat with fur collar',
-    category: 'coats',
-    price: 1299.99,
-    currency: 'USD',
-    images: ['/coats/coat5.jpg'],
-    featuredImage: '/coats/coat5.jpg',
-    inStock: true,
-    stockQuantity: 5,
-    sku: 'CIC-005',
-    specifications: [
-      { name: 'Material', value: 'Leather & Fur' },
       { name: 'Size', value: 'Standard' }
     ],
     materials: ['Leather', 'Fur'],
@@ -961,21 +931,6 @@ export const coatProducts: Product[] = [
     createdAt: new Date(),
     updatedAt: new Date()
   },
-  {
-    id: 'coat-007',
-    name: 'Shearling Aviator Jacket',
-    description: 'Shearling aviator leather jacket.',
-    shortDescription: 'Shearling aviator jacket',
-    category: 'coats',
-    price: 1399.99,
-    currency: 'USD',
-    images: ['/coats/coat7.jpg'],
-    featuredImage: '/coats/coat7.jpg',
-    inStock: true,
-    stockQuantity: 5,
-    sku: 'CIC-007',
-    specifications: [
-      { name: 'Material', value: 'Leather & Shearling' },
       { name: 'Size', value: 'Standard' }
     ],
     materials: ['Leather', 'Shearling'],
@@ -1011,21 +966,6 @@ export const coatProducts: Product[] = [
     createdAt: new Date(),
     updatedAt: new Date()
   },
-  {
-    id: 'coat-002',
-    name: 'Modern Leather Coat',
-    description: 'Modern leather coat for stylish outerwear.',
-    shortDescription: 'Modern leather coat',
-    category: 'coats',
-    price: 999.99,
-    currency: 'USD',
-    images: ['/coats/coat2.jpg'],
-    featuredImage: '/coats/coat2.jpg',
-    inStock: true,
-    stockQuantity: 5,
-    sku: 'CIC-002',
-    specifications: [
-      { name: 'Material', value: 'Leather' },
       { name: 'Size', value: 'Standard' }
     ],
     materials: ['Leather'],
@@ -1038,21 +978,6 @@ export const coatProducts: Product[] = [
   },
   // Add entries for coat3.jpg, coat4.jpg, coat5.jpg, coat6.jpg, coat7.jpg, coat8.jpg
   // ...repeat similar structure for each image...
-  {
-    id: 'coat-001',
-    name: 'Classic Leather Trench Coat',
-    description: 'Timeless leather trench coat with classic silhouette. Perfect for transitional weather with sophisticated style.',
-    shortDescription: 'Classic leather trench coat',
-    category: 'coats',
-    price: 899.99,
-    currency: 'USD',
-    images: ['/coats/coat1.jpg'],
-    featuredImage: '/coats/coat1.jpg',
-    inStock: true,
-    stockQuantity: 8,
-    sku: 'CIC-001',
-    specifications: [
-      { name: 'Material', value: 'Lambskin Leather' },
       { name: 'Lining', value: 'Viscose' },
       { name: 'Length', value: 'Mid-thigh' },
       { name: 'Closure', value: 'Belt and Buttons' },
