@@ -727,6 +727,7 @@ export const bagProducts: Product[
     createdAt: new Date(),
     updatedAt: new Date()
   },
+  {
     id: 'coat-008',
     name: 'Cowhide Patchwork Jacket',
     description: 'Cowhide patchwork leather jacket.',
