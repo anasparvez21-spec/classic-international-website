@@ -725,53 +725,6 @@ export const bagProducts: Product[] = [
     createdAt: new Date(),
     updatedAt: new Date()
   },
-  // Add entries for 7.jpg, 8.jpg, 9.jpg, 10.jpg, 11.jpg, 12.jpg, 13.jpg, 14.jpg
-  // ...repeat similar structure for each image...
-      { name: 'Dimensions', value: '16" x 12" x 4"' },
-      { name: 'Laptop Compatibility', value: 'Up to 15.6"' },
-      { name: 'Compartments', value: '3 main + 5 organization' },
-      { name: 'Hardware', value: 'Antique Brass' }
-    ],
-    materials: ['Full Grain Leather', 'Cotton Canvas Lining', 'Antique Brass Hardware'],
-    careInstructions: ['Condition every 6 months', 'Store in dust bag', 'Avoid prolonged sun exposure'],
-    customizable: true,
-    customizationOptions: [
-      {
-        id: 'initials',
-        name: 'Embossed Initials',
-        type: 'text',
-        required: false,
-        additionalPrice: 35
-      }
-    ],
-    featured: false,
-    tags: ['leather', 'briefcase', 'business', 'laptop', 'professional'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
-      { name: 'Dimensions', value: '12" x 8" x 4"' },
-      { name: 'Closure', value: 'Magnetic Snap' },
-      { name: 'Straps', value: 'Adjustable' }
-    ],
-    materials: ['Premium Leather', 'Metal Hardware'],
-    careInstructions: ['Clean with leather cleaner', 'Store in dust bag'],
-    customizable: true,
-    customizationOptions: [
-      {
-        id: 'color',
-        name: 'Color Choice',
-        type: 'select',
-        options: ['Black', 'Brown', 'Cognac', 'Navy'],
-        required: false,
-        additionalPrice: 25
-      }
-    ],
-    featured: false,
-    tags: ['leather', 'handbag', 'designer', 'premium', 'women'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
-  {
     id: 'bag-003',
     name: 'Travel Duffle Bag',
     description: 'Spacious leather duffle bag perfect for weekend trips and travel. Durable construction with vintage-inspired design.',
