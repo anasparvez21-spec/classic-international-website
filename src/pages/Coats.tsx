@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo, useCallback, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -7,15 +7,22 @@ import { ShoppingCart, Eye } from "lucide-react";
 import { getProductsByCategory } from "@/data/products";
 import { useCartStore } from "@/store/cartStore";
 import { useToast } from "@/hooks/use-toast";
+import { prefetchImages } from "@/utils/imageOptimization";
 
 const Coats: React.FC = () => {
   const navigate = useNavigate();
   const { toast } = useToast();
   const { addItem, openCart } = useCartStore();
-  const products = getProductsByCategory('coats');
+  const products = useMemo(() => getProductsByCategory('coats'), []);
   const [hoverImg, setHoverImg] = React.useState<string | null>(null);
 
-  const handleAddToCart = (product: any, e: React.MouseEvent) => {
+  // Prefetch images on component mount
+  useEffect(() => {
+    const imageUrls = products.map((p: any) => p.featuredImage);
+    prefetchImages(imageUrls);
+  }, [products]);
+
+  const handleAddToCart = useCallback((product: any, e: React.MouseEvent) => {
     e.stopPropagation();
     addItem(product, 1);
     toast({
@@ -23,11 +30,11 @@ const Coats: React.FC = () => {
       description: `${product.name} has been added to your cart.`,
     });
     openCart();
-  };
+  }, [addItem, openCart, toast]);
 
-  const handleProductClick = (productId: string) => {
+  const handleProductClick = useCallback((productId: string) => {
     navigate(`/product/${productId}`);
-  };
+  }, [navigate]);
 
   return (
     <div className="min-h-screen bg-gray-50 py-10 px-4 relative">
