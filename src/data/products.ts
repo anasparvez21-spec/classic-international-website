@@ -523,7 +523,9 @@ export const shoeProducts: Product[] = [
 ];
 
 // Bag Products
-export const bagProducts: Product[] = [
+export const bagProducts: Product[
+  
+] = [
   // Added missing bag images as products
   {
     id: 'bag-006',
@@ -725,113 +727,6 @@ export const bagProducts: Product[] = [
     createdAt: new Date(),
     updatedAt: new Date()
   },
-  // Add entries for 7.jpg, 8.jpg, 9.jpg, 10.jpg, 11.jpg, 12.jpg, 13.jpg, 14.jpg
-  // ...repeat similar structure for each image...
-      { name: 'Dimensions', value: '16" x 12" x 4"' },
-      { name: 'Laptop Compatibility', value: 'Up to 15.6"' },
-      { name: 'Compartments', value: '3 main + 5 organization' },
-      { name: 'Hardware', value: 'Antique Brass' }
-    ],
-    materials: ['Full Grain Leather', 'Cotton Canvas Lining', 'Antique Brass Hardware'],
-    careInstructions: ['Condition every 6 months', 'Store in dust bag', 'Avoid prolonged sun exposure'],
-    customizable: true,
-    customizationOptions: [
-      {
-        id: 'initials',
-        name: 'Embossed Initials',
-        type: 'text',
-        required: false,
-        additionalPrice: 35
-      }
-    ],
-    featured: false,
-    tags: ['leather', 'briefcase', 'business', 'laptop', 'professional'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
-      { name: 'Dimensions', value: '12" x 8" x 4"' },
-      { name: 'Closure', value: 'Magnetic Snap' },
-      { name: 'Straps', value: 'Adjustable' }
-    ],
-    materials: ['Premium Leather', 'Metal Hardware'],
-    careInstructions: ['Clean with leather cleaner', 'Store in dust bag'],
-    customizable: true,
-    customizationOptions: [
-      {
-        id: 'color',
-        name: 'Color Choice',
-        type: 'select',
-        options: ['Black', 'Brown', 'Cognac', 'Navy'],
-        required: false,
-        additionalPrice: 25
-      }
-    ],
-    featured: false,
-    tags: ['leather', 'handbag', 'designer', 'premium', 'women'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
-  {
-    id: 'bag-003',
-    name: 'Travel Duffle Bag',
-    description: 'Spacious leather duffle bag perfect for weekend trips and travel. Durable construction with vintage-inspired design.',
-    shortDescription: 'Leather travel duffle bag',
-    category: 'bags',
-    price: 399.99,
-    currency: 'USD',
-    images: ['/premium-leather-bags/3.jpg'],
-    featuredImage: '/premium-leather-bags/3.jpg',
-    inStock: true,
-    stockQuantity: 10,
-    sku: 'CIB-003',
-    specifications: [
-      { name: 'Material', value: 'Full Grain Leather' },
-      { name: 'Capacity', value: '45L' },
-      { name: 'Dimensions', value: '22" x 12" x 10"' },
-      { name: 'Features', value: 'Shoulder Strap' }
-    ],
-    materials: ['Full Grain Leather', 'Canvas Lining', 'Brass Hardware'],
-    careInstructions: ['Condition regularly', 'Keep away from water'],
-    customizable: false,
-    featured: false,
-    tags: ['leather', 'travel', 'duffle', 'weekend', 'vintage'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  },
-  {
-    id: 'bag-004',
-    name: 'Leopard Hair-On Bag',
-    description: 'Exotic leopard hair-on leather bag with unique natural pattern. Handcrafted with premium cowhide featuring genuine leopard print hair-on design. Perfect statement piece for fashion-forward individuals.',
-    shortDescription: 'Exotic leopard hair-on leather bag',
-    category: 'bags',
-    price: 449.99,
-    currency: 'USD',
-    images: ['/premium-leather-bags/8.jpg'],
-    featuredImage: '/premium-leather-bags/8.jpg',
-    inStock: true,
-    stockQuantity: 8,
-    sku: 'CIB-004',
-    specifications: [
-      { name: 'Material', value: 'Hair-On Cowhide' },
-      { name: 'Pattern', value: 'Natural Leopard Print' },
-      { name: 'Dimensions', value: '14" x 10" x 5"' },
-      { name: 'Closure', value: 'Magnetic Snap' },
-      { name: 'Hardware', value: 'Antique Brass' }
-    ],
-    materials: ['Hair-On Cowhide', 'Leather Trim', 'Antique Brass Hardware'],
-    careInstructions: ['Brush gently with soft brush', 'Keep away from water', 'Professional cleaning recommended'],
-    customizable: false,
-    featured: true,
-    tags: ['leather', 'hair-on', 'leopard', 'exotic', 'statement'],
-    createdAt: new Date(),
-    updatedAt: new Date()
-  }
-];
-
-// Coat Products
-export const coatProducts: Product[] = [
-  // Added missing coat images as products
-  {
     id: 'coat-008',
     name: 'Cowhide Patchwork Jacket',
     description: 'Cowhide patchwork leather jacket.',
