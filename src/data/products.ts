@@ -727,21 +727,6 @@ export const bagProducts: Product[] = [
   },
   // Add entries for 7.jpg, 8.jpg, 9.jpg, 10.jpg, 11.jpg, 12.jpg, 13.jpg, 14.jpg
   // ...repeat similar structure for each image...
-  {
-    id: 'bag-001',
-    name: 'Executive Leather Briefcase',
-    description: 'Professional leather briefcase perfect for business professionals. Features multiple compartments, laptop sleeve, and premium hardware.',
-    shortDescription: 'Professional leather briefcase with laptop compartment',
-    category: 'bags',
-    price: 399.99,
-    currency: 'USD',
-    images: ['/premium-leather-bags/1.jpg'],
-    featuredImage: '/premium-leather-bags/1.jpg',
-    inStock: true,
-    stockQuantity: 12,
-    sku: 'CIB-001',
-    specifications: [
-      { name: 'Material', value: 'Full Grain Leather' },
       { name: 'Dimensions', value: '16" x 12" x 4"' },
       { name: 'Laptop Compatibility', value: 'Up to 15.6"' },
       { name: 'Compartments', value: '3 main + 5 organization' },
@@ -764,21 +749,6 @@ export const bagProducts: Product[] = [
     createdAt: new Date(),
     updatedAt: new Date()
   },
-  {
-    id: 'bag-002',
-    name: 'Designer Handbag',
-    description: 'Elegant designer handbag crafted from premium leather. Features multiple compartments and sophisticated hardware for the modern woman.',
-    shortDescription: 'Premium leather designer handbag',
-    category: 'bags',
-    price: 299.99,
-    currency: 'USD',
-    images: ['/premium-leather-bags/2.jpg'],
-    featuredImage: '/premium-leather-bags/2.jpg',
-    inStock: true,
-    stockQuantity: 15,
-    sku: 'CIB-002',
-    specifications: [
-      { name: 'Material', value: 'Premium Leather' },
       { name: 'Dimensions', value: '12" x 8" x 4"' },
       { name: 'Closure', value: 'Magnetic Snap' },
       { name: 'Straps', value: 'Adjustable' }
